@@ -8,7 +8,9 @@ npm install -S afeiship/next-nake-clean --registry=https://registry.npm.taobao.o
 
 ## usage
 ```js
-//DOCS here!
+import nxNakeClean from 'next-nake-clean';
+
+nxNakeClean('dist/**');
 ```
 ## resources
 - https://github.com/sindresorhus/del
